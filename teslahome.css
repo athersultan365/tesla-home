@@ -1,0 +1,1155 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .header {
+            width: 100%;
+            /* border: 1px solid red; */
+            height: 100vh;
+            position: relative;
+        }
+
+        .all3video {
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+        }
+
+        .input-1 {
+            position: absolute;
+            left: 50px;
+            top: 90%;
+            z-index: 1;
+        }
+
+        .input-1:checked+.video1 {
+            opacity: 1;
+        }
+
+        .input-2 {
+            position: absolute;
+            left: 70px;
+            top: 90%;
+            z-index: 1;
+        }
+
+
+        .input-2:checked+.video2 {
+
+            opacity: 1;
+        }
+
+        .input-3:checked+.video3 {
+            opacity: 1;
+        }
+
+        .input-3 {
+            position: absolute;
+            left: 90px;
+            top: 90%;
+            z-index: 1;
+
+        }
+
+        .video1,
+        .video2,
+        .video3 {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            position: absolute;
+            object-fit: cover;
+            top: 0px;
+            left: 0px;
+            opacity: 0;
+        }
+
+
+        .header1 {
+            width: 100%;
+            height: 100%;
+            /* border: 4px solid red; */
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 0px
+        }
+
+        .menubar {
+            width: 100%;
+            height: 50px;
+            /* background-color: aquamarine; */
+            /* border: 1px solid red; */
+            /* margin-top: 48px; */
+        }
+
+        .logo {
+            width: 150px;
+            height: 100%;
+            /* border: 1px solid gold; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 30px;
+
+        }
+
+        #textlogo {
+            width: 150px;
+            height: 100%;
+            color: white;
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg) brightness(103%) contrast(103%);
+        }
+
+        .tagelist {
+            width: 500px;
+            height: 100%;
+            /* border: 1px solid blue; */
+            margin-left: 150px;
+            /* color: red; */
+        }
+
+        .logo,
+        .tagelist,
+        .icon {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .icon {
+            width: 100px;
+            height: 50px;
+            color: white;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 1000px;
+            margin-top: -50px;
+            word-spacing: 20px;
+            /* border: 1px solid greenyellow; */
+            padding-top: 10px;
+        }
+
+        .taglist-li {
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+            list-style: none;
+            margin-left: 30px;
+            margin-top: 10px;
+            position: relative;
+            cursor: pointer;
+        }
+
+
+        .taglist-li:hover .drop-down {
+            opacity: 1;
+            height: 500px;
+        }
+
+        .drop-down ul li {
+            list-style: none;
+            margin-top: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        .drop-down {
+            width: 1300px;
+            height: 0px;
+            /* border: 1px solid red; */
+            background-color: white;
+            position: absolute;
+            left: -820%;
+            top: 25px;
+            overflow: hidden;
+            transition: 0.4s;
+            opacity: 0px;
+            z-index: 1;
+
+        }
+
+        .picdetail {
+            width: 220px;
+            height: 170px;
+            /* border: 1px solid red; */
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 20px;
+            margin-left: 50px;
+
+        }
+
+        .left {
+            margin-left: 30px
+        }
+
+        .text2 {
+            width: 200px;
+            height: 50px;
+            color: black;
+            /* border: 1px solid blueviolet; */
+            text-align: center;
+            margin-top: 3px;
+            margin-left: 7px;
+
+
+        }
+
+        .modelS {
+            width: 200px;
+            height: 100px;
+            /* border: 3px solid blue; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+            margin-top: 10px;
+        }
+
+        #models1 {
+            width: 200px;
+            height: 100px;
+
+        }
+
+        .model3 {
+            width: 200px;
+            height: 100px;
+            /* border: 3px solid red; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+        }
+
+        #modle3pic {
+            width: 195px;
+            height: 95px;
+        }
+
+        .modelx {
+            width: 200px;
+            height: 100px;
+            /* border:F
+            /* 3px solid yellow; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+        }
+
+        #xmodel {
+            width: 195px;
+            height: 95px;
+
+
+        }
+
+        #mechoose {
+            width: 195px;
+            height: 95px;
+
+
+        }
+
+        .sublist {
+            width: 300px;
+            height: 490px;
+            /* border: 1px solid blue; */
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #unstyle {
+            margin-left: 30px;
+            margin-top: 20px;
+            list-style: none;
+        }
+
+
+        .leftborder1 {
+
+            border-left: 1px solid gray;
+            margin-left: 20px;
+
+        }
+
+        .inventory {
+            color: black;
+        }
+
+        .usedcar,
+        .demodrive,
+        .trade-in,
+        .compare,
+        .charge,
+        .fleet,
+        .semi,
+        .roadster {
+            margin-top: 10px;
+            color: black;
+        }
+
+        .carlist {
+            width: 950px;
+            height: 490px;
+            /* border: 2px solid green; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 30px;
+
+        }
+
+        .modely {
+            width: 200px;
+            /* height: 100px; */
+            /* border: 3px solid yellow; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+        }
+
+        .choose {
+            width: 200px;
+            height: 100px;
+            /* border: 3px solid yellow; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+        }
+
+        .truck {
+            margin-left: 30px;
+        }
+
+        .detail {
+            width: 220px;
+            height: 170px;
+            /* border: 1px solid red; */
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+
+
+
+
+        #modelya1 {
+            width: 195px;
+            height: 95px;
+
+
+        }
+
+        .upline {
+            width: 870px;
+            height: 210px;
+            /* border: 1px solid blue; */
+            margin-top: 20px;
+            margin-left: 50px;
+
+        }
+
+        .cyber {
+            width: 200px;
+            height: 100px;
+            /* border: 3px solid yellow; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+        }
+
+        #cybertruck {
+            width: 195px;
+            height: 95px;
+        }
+
+        .videotext {
+            width: 550px;
+            height: 250px;
+            /* border: 2px solid blue; */
+            margin-top: 10px;
+            margin-left: 50px;
+            position: relative;
+        }
+
+        .modelnewY,
+        .newmodel3,
+        .help1 {
+            width: 540px;
+            height: 230px;
+            position: absolute;
+            /* border: 1px solid red; */
+            color: white;
+            opacity: 0;
+            top: 250px;
+            left: 0;
+        }
+
+        .modelnewY {
+            animation: modelY;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes modelY {
+            0% {
+                opacity: 1;
+            }
+
+            33% {
+                opacity: 1;
+            }
+
+            34% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .Demo,
+        .order,
+        .help {
+            width: 200px;
+            height: 50px;
+            border-radius: 5px;
+            /* border: 1px solid red; */
+            background-color: white;
+            /* margin-left: 350px; */
+            margin-top: 30px;
+            color: black;
+        }
+
+        .Demo:hover.Demo {
+            background-color: rgba(159, 155, 155, 0.852);
+        }
+
+        .order {
+            color: white;
+            background-color: rgba(26, 25, 25, 0.901);
+        }
+
+        .order:hover.order {
+            background-color: rgba(159, 155, 155, 0.852);
+        }
+
+        .help:hover.help {
+            background-color: rgba(159, 155, 155, 0.852);
+        }
+
+        .newmodel3 {
+            animation: newmodel;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes newmodel {
+            0% {
+                opacity: 0;
+            }
+
+            33% {
+                opacity: 0;
+            }
+
+            34% {
+                opacity: 1;
+            }
+
+            67% {
+                opacity: 1;
+            }
+        }
+
+        .help1 {
+            animation: helpl;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes helpl {
+            0% {
+                opacity: 0;
+            }
+
+            33% {
+                opacity: 0;
+            }
+
+            34% {
+                opacity: 0;
+            }
+
+            67% {
+                opacity: 0;
+            }
+
+            68% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .modelnewY {
+            width: 540px;
+            height: 230px;
+            /* border: 1px solid red; */
+        }
+
+        .modelnewY h1 {
+            /* border: 1px solid blue; */
+            text-align: left;
+            font-size: 40px;
+            color: white;
+        }
+
+        .modelnewY p {
+            width: 600px;
+            text-align: center;
+            color: white;
+            text-align: left;
+            font-size: 15px;
+            /* margin-left: 70px; */
+        }
+
+        .Shopava {
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+            /* border: 1px solid red; */
+            background-color: white;
+            /* margin-left: 350px; */
+            margin-top: 30px;
+        }
+
+        .dot3 {
+            width: 100px;
+            height: 25px;
+            /* border: 1px solid red; */
+            margin-top: 300px;
+            margin-left: 50px;
+
+
+        }
+
+        .dota,
+        .dotb,
+        .dotc {
+            width: 15px;
+            height: 15px;
+            border-radius: 100px;
+            background-color: red;
+            display: inline-block;
+            margin-left: 10px;
+
+        }
+
+        /* ///////////////////////section2////////////////// */
+        .Ymodel {
+            width: 100%;
+            height: 120vh;
+            /* border: 3px solid red; */
+            background-image: url("./pic/Homepage-Model-Y-Global-Desktop.jpeg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+            padding: 1px;
+        }
+
+        .modeltext {
+
+            width: 200px;
+            height: 100px;
+            /* border: 1px solid greenyellow; */
+            text-align: center;
+            margin-left: 600px;
+            margin-top: 70px;
+        }
+
+        .modeltext h1 {
+            font-size: 45px;
+        }
+
+        .modeltext p {
+            font-size: 27px;
+        }
+
+        .modeltext p2 {
+            font-size: 18px;
+        }
+
+        .section2 {
+            width: 600px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 350px;
+            margin-top: 450px;
+        }
+
+        .Shop,
+        .Demo2 {
+            width: 246px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .Demo2 {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+        }
+
+        .Shop:hover {
+            cursor: pointer;
+        }
+
+        .Demo2:hover {
+            cursor: pointer;
+        }
+
+        .tax {
+            width: 580px;
+            height: 20px;
+            /* border: 1px solid darkgoldenrod; */
+            margin-top: 20px;
+        }
+
+        /* /////////////////////////section 3 /////////////// */
+
+        .model3color {
+            width: 100%;
+            height: 120vh;
+            /* border: 1px solid greenyellow; */
+            background-image: url("./pic/two\ color.jpg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+            padding: 1px;
+        }
+
+        .reengineered {
+            width: 250px;
+            height: 140px;
+            /* border: 1px solid greenyellow; */
+            text-align: center;
+            margin-left: 500px;
+            margin-top: 70px;
+        }
+
+        .reengineered h1 {
+            font-size: 45px;
+        }
+
+        .reengineered p {
+            font-size: 27px;
+        }
+
+        .reengineered p3 {
+            font-size: 18px;
+        }
+
+        .button3 {
+            width: 600px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 350px;
+            margin-top: 450px;
+        }
+
+        .Custom,
+        .Demo3 {
+            width: 246px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .Demo3 {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+        }
+
+        .Custom:hover {
+            cursor: pointer;
+        }
+
+        .Demo3:hover {
+            cursor: pointer;
+        }
+
+        .tax {
+            width: 650px;
+            height: 20px;
+            /* border: 1px solid darkgoldenrod; */
+            margin-top: 20px;
+        }
+
+        /* ///////////////////////section4/////////////////// */
+
+        .model-x {
+            width: 100%;
+            height: 120vh;
+            /* border: 1px solid sandybrown; */
+            background-image: url("./pic/Homepage-Model-X-Desktop-LHD.jpeg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+            padding: 1px;
+        }
+
+        .Model--x {
+            width: 290px;
+            height: 140px;
+            /* border: 1px solid greenyellow; */
+            text-align: center;
+            margin-left: 500px;
+            margin-top: 70px;
+        }
+
+        .Model--x h1 {
+            font-size: 45px;
+        }
+
+        .Model--x p {
+            font-size: 27px;
+        }
+
+        .Model--x p3 {
+            font-size: 15px;
+        }
+
+        .button3 {
+            width: 600px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 350px;
+            margin-top: 400px;
+        }
+
+        .Custom,
+        .Demo3 {
+            width: 246px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .Demo3 {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+            margin-left: 50px;
+        }
+
+        .Custom:hover {
+            cursor: pointer;
+        }
+
+        .Demo3:hover {
+            cursor: pointer;
+        }
+
+        .tax-x {
+            width: 730px;
+            height: 20px;
+            /* border: 1px solid darkgoldenrod; */
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .tax-x p {
+            margin-left: -50PX;
+        }
+
+        .tax-x h4 {
+            text-align: center;
+
+        }
+
+        /* ///////////////////////////////S////////////////// */
+        .model-s {
+            width: 100%;
+            height: 120vh;
+            border: 1px solid sandybrown;
+            background-image: url("./pic/Homepage-Model-S-Desktop-LHD-6.22.jpg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+            /* padding: 1px; */
+        }
+
+        .Model--as {
+            width: 290px;
+            height: 140px;
+            /* border: 1px solid greenyellow; */
+            text-align: center;
+            margin-left: 500px;
+            /* margin-top: 70px; */
+        }
+
+        .Model--as h1 {
+            font-size: 45px;
+        }
+
+        .Model--as p {
+            font-size: 20px;
+        }
+
+        .Model--as p3 {
+            font-size: 15px;
+        }
+
+        .buttonss {
+            width: 600px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 350px;
+            margin-top: 400px;
+        }
+
+        .Custom,
+        .Demo3 {
+            width: 246px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .Demo3 {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+            margin-left: 50px;
+        }
+
+        .Custom:hover {
+            cursor: pointer;
+        }
+
+        .Demo3:hover {
+            cursor: pointer;
+        }
+
+        .tax-s {
+            width: 600px;
+            height: 20px;
+            /* border: 1px solid darkgoldenrod; */
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .tax-s p {
+            margin-left: -50PX;
+        }
+
+        .tax-s h4 {
+            text-align: center;
+
+        }
+
+        /* ////////////////////truck/////////////// */
+
+        .truck1 {
+            width: 100%;
+            height: 120vh;
+            /* border: 1px solid sandybrown; */
+            background-image: url("./pic/Homepage-Cybertruck-Desktop.jpg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+            padding: 1px;
+
+        }
+
+        .truck1-buttons {
+            width: 600px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 350px;
+            margin-top: 600px;
+        }
+
+        .Custom,
+        .Demo3 {
+            width: 246px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .Demo3 {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+            margin-left: 50px;
+        }
+
+        .Custom:hover {
+            cursor: pointer;
+        }
+
+
+
+        /* /////////////////////////Panel///////////////// */
+        .solar-panel {
+
+            width: 100%;
+            height: 120vh;
+            /* border: 1px solid sandybrown; */
+            background-image: url("./pic/Homepage-SolarPanels-01-Desktop.jpeg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .solarpanel {
+            width: 290px;
+            height: 100px;
+            /* border: 1px solid greenyellow; */
+            text-align: center;
+            margin-left: 500px;
+            color: white;
+            /* margin-top: 70px; */
+        }
+
+        .solarpanel h1 {
+            font-size: 45px;
+        }
+
+        .solarpanel p {
+            font-size: 20px;
+        }
+
+        .buttonspanel {
+            width: 600px;
+            height: 40px;
+            /* border: 3px solid blue; */
+            margin-left: 350px;
+            margin-top: 600px;
+        }
+
+        .Custom,
+        .Demo3 {
+            width: 246px;
+            height: 100%;
+            /* border: 2px solid red; */
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .Demo3 {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+            margin-left: 50px;
+        }
+
+        .Custom:hover {
+            cursor: pointer;
+        }
+
+        /* .tax-s {
+            width: 600px;
+            height: 20px;
+            /* border: 1px solid darkgoldenrod; */
+        /* margin-top: 20px;
+            font-size: 18px;
+        } */
+
+        /*  
+
+        /* ////////////////////////Roof///////////////////// */
+        .solar-roof {
+            width: 100%;
+            height: 120vh;
+            /* border: 1px solid sandybrown; */
+            background-image: url("./pic/Homepage-SolarRoof-Desktop-Global.jpeg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .solarroof {
+            width: 290px;
+            height: 85px;
+            /* border: 1px solid greenyellow; */
+            text-align: center;
+            margin-left: 500px;
+            /* margin-top: 70px; */
+        }
+
+        .solarroof h1 {
+            font-size: 45px;
+        }
+
+        .solarroof p {
+            font-size: 15px;
+        }
+
+        .buttons {
+            width: 600px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 350px;
+            margin-top: 400px;
+        }
+
+        .Custom,
+        .Demo3 {
+            width: 246px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .Demo3 {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+            margin-left: 50px;
+        }
+
+        .Custom:hover {
+            cursor: pointer;
+        }
+
+        .Demo3:hover {
+            cursor: pointer;
+        }
+
+        /* ////////////////////power-wall//////////////// */
+        .power-wall {
+            width: 100%;
+            height: 120vh;
+            /* border: 1px solid sandybrown; */
+            background-image: url("./pic/Homepage-Powerwall-01-Desktop.jpg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .powerwall {
+            width: 290px;
+            height: 60px;
+            /* border: 1px solid greenyellow; */
+            text-align: center;
+            margin-left: 500px;
+            /* margin-top: 70px; */
+        }
+
+        .powerwall h1 {
+            font-size: 45px;
+        }
+
+        .buttons {
+            width: 600px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 350px;
+            margin-top: 400px;
+        }
+
+        .Custom,
+        .Demo3 {
+            width: 246px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .Demo3 {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+            margin-left: 50px;
+        }
+
+        .Custom:hover {
+            cursor: pointer;
+        }
+
+        .Demo3:hover {
+            cursor: pointer;
+        }
+
+        /* //////////////////////////Accesories//////////////////// */
+        .accessories {
+
+            width: 100%;
+            height: 120vh;
+            /* border: 1px solid sandybrown; */
+            background-image: url("./pic/Homepage-Accessories-Desktop-NA-APAC.jpg");
+            background-position-y: bottom;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .accessories1 {
+
+            width: 290px;
+            height: 60px;
+            /* border: 1px solid greenyellow; */
+            text-align: center;
+            margin-left: 500px;
+            /* margin-top: 70px; */
+        }
+
+        .powerwall h1 {
+            font-size: 45px;
+        }
+
+        .buttonsaccessori {
+            width: 250px;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin-left: 550px;
+            margin-top: 400px;
+        }
+
+
+        .shop-now {
+            width: 246px;
+            height: 100%;
+            display: inline-block;
+            vertical-align: top;
+            /* margin-left: 50px; */
+        }
+
+        .shop-now {
+            background-color: rgba(0, 0, 0, 0.813);
+            color: white;
+            /* margin-left: 50px; */
+        }
+
+        .shop-now:hover {
+            cursor: pointer;
+        }
+
+        .lastbar {
+            width: 650px;
+            height: 30px;
+            /* border: 1px solid red; */
+            margin-left: 400px;
+            margin-top: 200px;
+        }
+
+        .lastbar ul li {
+            color: white;
+            list-style: none;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+        }
