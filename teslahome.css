@@ -7,7 +7,6 @@
 
         .header {
             width: 100%;
-            /* border: 1px solid red; */
             height: 100vh;
             position: relative;
         }
@@ -73,7 +72,6 @@
         .header1 {
             width: 100%;
             height: 100%;
-            /* border: 4px solid red; */
             position: absolute;
             top: 0;
             left: 0;
@@ -83,15 +81,11 @@
         .menubar {
             width: 100%;
             height: 50px;
-            /* background-color: aquamarine; */
-            /* border: 1px solid red; */
-            /* margin-top: 48px; */
         }
 
         .logo {
             width: 150px;
             height: 100%;
-            /* border: 1px solid gold; */
             display: inline-block;
             vertical-align: top;
             margin-left: 30px;
@@ -108,9 +102,7 @@
         .tagelist {
             width: 500px;
             height: 100%;
-            /* border: 1px solid blue; */
             margin-left: 150px;
-            /* color: red; */
         }
 
         .logo,
@@ -129,7 +121,6 @@
             margin-left: 1000px;
             margin-top: -50px;
             word-spacing: 20px;
-            /* border: 1px solid greenyellow; */
             padding-top: 10px;
         }
 
@@ -160,7 +151,6 @@
         .drop-down {
             width: 1300px;
             height: 0px;
-            /* border: 1px solid red; */
             background-color: white;
             position: absolute;
             left: -820%;
@@ -175,7 +165,6 @@
         .picdetail {
             width: 220px;
             height: 170px;
-            /* border: 1px solid red; */
             display: inline-block;
             vertical-align: top;
             margin-top: 20px;
@@ -191,7 +180,6 @@
             width: 200px;
             height: 50px;
             color: black;
-            /* border: 1px solid blueviolet; */
             text-align: center;
             margin-top: 3px;
             margin-left: 7px;
@@ -202,7 +190,6 @@
         .modelS {
             width: 200px;
             height: 100px;
-            /* border: 3px solid blue; */
             display: inline-block;
             vertical-align: top;
             margin-left: 7px;
@@ -218,7 +205,6 @@
         .model3 {
             width: 200px;
             height: 100px;
-            /* border: 3px solid red; */
             display: inline-block;
             vertical-align: top;
             margin-left: 7px;
@@ -232,8 +218,6 @@
         .modelx {
             width: 200px;
             height: 100px;
-            /* border:F
-            /* 3px solid yellow; */
             display: inline-block;
             vertical-align: top;
             margin-left: 7px;
@@ -256,7 +240,6 @@
         .sublist {
             width: 300px;
             height: 490px;
-            /* border: 1px solid blue; */
             display: inline-block;
             vertical-align: top;
         }
@@ -294,7 +277,6 @@
         .carlist {
             width: 950px;
             height: 490px;
-            /* border: 2px solid green; */
             display: inline-block;
             vertical-align: top;
             margin-left: 30px;
@@ -303,8 +285,6 @@
 
         .modely {
             width: 200px;
-            /* height: 100px; */
-            /* border: 3px solid yellow; */
             display: inline-block;
             vertical-align: top;
             margin-left: 7px;
@@ -313,7 +293,6 @@
         .choose {
             width: 200px;
             height: 100px;
-            /* border: 3px solid yellow; */
             display: inline-block;
             vertical-align: top;
             margin-left: 7px;
@@ -326,7 +305,6 @@
         .detail {
             width: 220px;
             height: 170px;
-            /* border: 1px solid red; */
             display: inline-block;
             vertical-align: top;
             margin-top: 20px;
@@ -346,7 +324,6 @@
         .upline {
             width: 870px;
             height: 210px;
-            /* border: 1px solid blue; */
             margin-top: 20px;
             margin-left: 50px;
 
@@ -355,7 +332,6 @@
         .cyber {
             width: 200px;
             height: 100px;
-            /* border: 3px solid yellow; */
             display: inline-block;
             vertical-align: top;
             margin-left: 7px;
@@ -369,7 +345,6 @@
         .videotext {
             width: 550px;
             height: 250px;
-            /* border: 2px solid blue; */
             margin-top: 10px;
             margin-left: 50px;
             position: relative;
@@ -381,7 +356,6 @@
             width: 540px;
             height: 230px;
             position: absolute;
-            /* border: 1px solid red; */
             color: white;
             opacity: 0;
             top: 250px;
@@ -419,9 +393,7 @@
             width: 200px;
             height: 50px;
             border-radius: 5px;
-            /* border: 1px solid red; */
             background-color: white;
-            /* margin-left: 350px; */
             margin-top: 30px;
             color: black;
         }
@@ -504,11 +476,9 @@
         .modelnewY {
             width: 540px;
             height: 230px;
-            /* border: 1px solid red; */
         }
 
         .modelnewY h1 {
-            /* border: 1px solid blue; */
             text-align: left;
             font-size: 40px;
             color: white;
@@ -520,23 +490,19 @@
             color: white;
             text-align: left;
             font-size: 15px;
-            /* margin-left: 70px; */
         }
 
         .Shopava {
             width: 300px;
             height: 50px;
             border-radius: 5px;
-            /* border: 1px solid red; */
             background-color: white;
-            /* margin-left: 350px; */
             margin-top: 30px;
         }
 
         .dot3 {
             width: 100px;
             height: 25px;
-            /* border: 1px solid red; */
             margin-top: 300px;
             margin-left: 50px;
 
@@ -559,7 +525,6 @@
         .Ymodel {
             width: 100%;
             height: 120vh;
-            /* border: 3px solid red; */
             background-image: url("./pic/Homepage-Model-Y-Global-Desktop.jpeg");
             background-position-y: bottom;
             background-size: cover;
@@ -571,7 +536,6 @@
 
             width: 200px;
             height: 100px;
-            /* border: 1px solid greenyellow; */
             text-align: center;
             margin-left: 600px;
             margin-top: 70px;
@@ -592,7 +556,6 @@
         .section2 {
             width: 600px;
             height: 40px;
-            /* border: 1px solid red; */
             margin-left: 350px;
             margin-top: 450px;
         }
@@ -622,7 +585,6 @@
         .tax {
             width: 580px;
             height: 20px;
-            /* border: 1px solid darkgoldenrod; */
             margin-top: 20px;
         }
 
@@ -631,7 +593,6 @@
         .model3color {
             width: 100%;
             height: 120vh;
-            /* border: 1px solid greenyellow; */
             background-image: url("./pic/two\ color.jpg");
             background-position-y: bottom;
             background-size: cover;
@@ -642,7 +603,6 @@
         .reengineered {
             width: 250px;
             height: 140px;
-            /* border: 1px solid greenyellow; */
             text-align: center;
             margin-left: 500px;
             margin-top: 70px;
@@ -663,7 +623,6 @@
         .button3 {
             width: 600px;
             height: 40px;
-            /* border: 1px solid red; */
             margin-left: 350px;
             margin-top: 450px;
         }
@@ -693,7 +652,6 @@
         .tax {
             width: 650px;
             height: 20px;
-            /* border: 1px solid darkgoldenrod; */
             margin-top: 20px;
         }
 
@@ -702,7 +660,6 @@
         .model-x {
             width: 100%;
             height: 120vh;
-            /* border: 1px solid sandybrown; */
             background-image: url("./pic/Homepage-Model-X-Desktop-LHD.jpeg");
             background-position-y: bottom;
             background-size: cover;
@@ -713,7 +670,6 @@
         .Model--x {
             width: 290px;
             height: 140px;
-            /* border: 1px solid greenyellow; */
             text-align: center;
             margin-left: 500px;
             margin-top: 70px;
@@ -734,7 +690,6 @@
         .button3 {
             width: 600px;
             height: 40px;
-            /* border: 1px solid red; */
             margin-left: 350px;
             margin-top: 400px;
         }
@@ -765,7 +720,6 @@
         .tax-x {
             width: 730px;
             height: 20px;
-            /* border: 1px solid darkgoldenrod; */
             margin-top: 20px;
             font-size: 18px;
         }
@@ -788,16 +742,13 @@
             background-position-y: bottom;
             background-size: cover;
             background-position: center;
-            /* padding: 1px; */
         }
 
         .Model--as {
             width: 290px;
             height: 140px;
-            /* border: 1px solid greenyellow; */
             text-align: center;
             margin-left: 500px;
-            /* margin-top: 70px; */
         }
 
         .Model--as h1 {
@@ -815,7 +766,6 @@
         .buttonss {
             width: 600px;
             height: 40px;
-            /* border: 1px solid red; */
             margin-left: 350px;
             margin-top: 400px;
         }
@@ -846,7 +796,6 @@
         .tax-s {
             width: 600px;
             height: 20px;
-            /* border: 1px solid darkgoldenrod; */
             margin-top: 20px;
             font-size: 18px;
         }
@@ -865,7 +814,6 @@
         .truck1 {
             width: 100%;
             height: 120vh;
-            /* border: 1px solid sandybrown; */
             background-image: url("./pic/Homepage-Cybertruck-Desktop.jpg");
             background-position-y: bottom;
             background-size: cover;
@@ -877,7 +825,6 @@
         .truck1-buttons {
             width: 600px;
             height: 40px;
-            /* border: 1px solid red; */
             margin-left: 350px;
             margin-top: 600px;
         }
@@ -908,7 +855,6 @@
 
             width: 100%;
             height: 120vh;
-            /* border: 1px solid sandybrown; */
             background-image: url("./pic/Homepage-SolarPanels-01-Desktop.jpeg");
             background-position-y: bottom;
             background-size: cover;
@@ -918,11 +864,9 @@
         .solarpanel {
             width: 290px;
             height: 100px;
-            /* border: 1px solid greenyellow; */
             text-align: center;
             margin-left: 500px;
             color: white;
-            /* margin-top: 70px; */
         }
 
         .solarpanel h1 {
@@ -936,7 +880,6 @@
         .buttonspanel {
             width: 600px;
             height: 40px;
-            /* border: 3px solid blue; */
             margin-left: 350px;
             margin-top: 600px;
         }
@@ -945,7 +888,6 @@
         .Demo3 {
             width: 246px;
             height: 100%;
-            /* border: 2px solid red; */
             display: inline-block;
             vertical-align: top;
             margin-left: 20px;
@@ -969,13 +911,11 @@
             font-size: 18px;
         } */
 
-        /*  
 
         /* ////////////////////////Roof///////////////////// */
         .solar-roof {
             width: 100%;
             height: 120vh;
-            /* border: 1px solid sandybrown; */
             background-image: url("./pic/Homepage-SolarRoof-Desktop-Global.jpeg");
             background-position-y: bottom;
             background-size: cover;
@@ -985,10 +925,8 @@
         .solarroof {
             width: 290px;
             height: 85px;
-            /* border: 1px solid greenyellow; */
             text-align: center;
             margin-left: 500px;
-            /* margin-top: 70px; */
         }
 
         .solarroof h1 {
@@ -1002,7 +940,6 @@
         .buttons {
             width: 600px;
             height: 40px;
-            /* border: 1px solid red; */
             margin-left: 350px;
             margin-top: 400px;
         }
@@ -1034,7 +971,6 @@
         .power-wall {
             width: 100%;
             height: 120vh;
-            /* border: 1px solid sandybrown; */
             background-image: url("./pic/Homepage-Powerwall-01-Desktop.jpg");
             background-position-y: bottom;
             background-size: cover;
@@ -1044,10 +980,8 @@
         .powerwall {
             width: 290px;
             height: 60px;
-            /* border: 1px solid greenyellow; */
             text-align: center;
             margin-left: 500px;
-            /* margin-top: 70px; */
         }
 
         .powerwall h1 {
@@ -1057,7 +991,6 @@
         .buttons {
             width: 600px;
             height: 40px;
-            /* border: 1px solid red; */
             margin-left: 350px;
             margin-top: 400px;
         }
@@ -1090,7 +1023,6 @@
 
             width: 100%;
             height: 120vh;
-            /* border: 1px solid sandybrown; */
             background-image: url("./pic/Homepage-Accessories-Desktop-NA-APAC.jpg");
             background-position-y: bottom;
             background-size: cover;
@@ -1101,10 +1033,8 @@
 
             width: 290px;
             height: 60px;
-            /* border: 1px solid greenyellow; */
             text-align: center;
             margin-left: 500px;
-            /* margin-top: 70px; */
         }
 
         .powerwall h1 {
@@ -1114,7 +1044,6 @@
         .buttonsaccessori {
             width: 250px;
             height: 40px;
-            /* border: 1px solid red; */
             margin-left: 550px;
             margin-top: 400px;
         }
@@ -1125,13 +1054,11 @@
             height: 100%;
             display: inline-block;
             vertical-align: top;
-            /* margin-left: 50px; */
         }
 
         .shop-now {
             background-color: rgba(0, 0, 0, 0.813);
             color: white;
-            /* margin-left: 50px; */
         }
 
         .shop-now:hover {
@@ -1141,7 +1068,6 @@
         .lastbar {
             width: 650px;
             height: 30px;
-            /* border: 1px solid red; */
             margin-left: 400px;
             margin-top: 200px;
         }
